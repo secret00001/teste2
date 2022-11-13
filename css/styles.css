@@ -1,0 +1,228 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+hr {
+  color: black;
+}
+
+/* Titulos */
+.titulo {
+  font-family: font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.titulo-pricing {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  text-align: left;
+}
+
+/* Se quisermos só alterar um id com uma .variavel é : #titulo .container-fluid {padding: 23%} (exemplo) */
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Sections */
+.colored-section {
+	background-color: #083AA9;
+  color: #fff;
+}
+.white-section {
+	background-color: #fff;
+}
+
+
+/* Navabar-brand */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 6rem;
+}
+
+.nav-item {
+  padding: 0 2px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Downloud Bottuns */
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.Download-button2 {
+  margin: 2% 2% 2% 0;
+}
+
+/* imagem */
+.title-img {
+  width: 100%;
+  transform: rotate(10deg);
+  position: relative;
+  left: %;
+}
+
+#features {
+  padding: 9% 18%;
+  position: relative;
+  z-index: 1;
+}
+
+.circulo {
+  font-size: 2rem;
+  padding: 1.2rem;
+  color: #FD841F;
+}
+
+/* Mudar a cor quando se passa por cima */
+.circulo:hover {
+  color: #CD104D;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 2rem;
+}
+
+.border {
+  width: 25%;
+  border-radius: 100%;
+  margin-right: 2%;
+  margin: 0.5%;
+}
+
+.lady {
+  width: 21.05%;
+  border-radius: 100%;
+  margin-right: 2%;
+  margin: 0.5%;
+}
+
+#press {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  line-height: 1.5;
+}
+
+.cães {
+  width: 10%;
+  margin: 0 1% 15px;
+}
+
+#pricing {
+  padding: 3rem;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cartões {
+  padding: 3% 0.5%;
+}
+
+#cta {
+  line-height: 1.5;
+  padding: 7rem 6rem 4rem;
+}
+
+.flogo {
+  font-weight: bold;
+  font-family: font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+  color: #fff;
+  padding: 2% 0 3%;
+}
+
+#footer {
+  line-height: 3;
+  padding: 5rem 3rem 1.5rem;
+}
+
+.fa-brands {
+  padding: 0.3%;
+}
+
+.fa-linkedin {
+  padding: 0.005%;
+}
+
+@media (max-width: 1030px) {
+  .titulo {
+    font-size: 210%;
+  }
+
+  .navbar-brand {
+    font-size: 150%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .titulo-pricing {
+    font-size: 130%;
+  }
+
+  .testimonial-text {
+    font-size: 130%;
+  }
+
+  .pricing-text {
+    font-size: 130%;
+  }
+
+  .flogo {
+    font-size: 100%;
+    padding: 1%;
+  }
+
+  .Download-button {
+    font-size: 80%;
+  }
+
+  .Download-button2 {
+    font-size: 50%;
+  }
+
+  #pricing {
+    font-size: 100%;
+  }
+
+  .fa-brands {
+    padding: 1.4%;
+  }
+
+  .fa-linkedin {
+    padding: 0.005%;
+  }
+}
